@@ -1,0 +1,32 @@
+{
+  "name": "openid-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u4da3/openid-test.git"
+  },
+  "author": "u4da3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u4da3/openid-test/issues"
+  },
+  "homepage": "https://github.com/u4da3/openid-test#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "express-generator": "^4.16.0"
+  }
+}
