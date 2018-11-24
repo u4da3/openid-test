@@ -1,0 +1,21 @@
+---
+env:
+  es6: true
+  node: true
+extends:
+  - 'eslint:recommended'
+  - 'plugin:prettier/recommended'
+rules:
+  no-useless-escape: warn
+  no-unused-vars: warn
+  prettier/prettier:
+    - error
+    - printWidth: 120
+      tabWidth: 2
+      useTabs: false
+      semi: true
+      singleQuote: true
+      trailingComma: es5
+      bracketSpacing: true
+      jsxBracketSameLine: false
+      arrowParens: always

@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+profile
+
+{{#with profile}}
+<table>
+  {{#if name}}<tr><th>Name</th><td>{{name}}</td></tr>{{/if}}
+  {{#if gender}}<tr><th>Gender</th><td>{{gender}}</td></tr>{{/if}}
+  {{#if email}}<tr><th>E-Mail</th><td>{{email}}</td></tr>{{/if}}
+  {{#if locale}}<tr><th>Locale</th><td>{{locale}}</td></tr>{{/if}}
+  {{#if timezone}}<tr><th>TimeZone</th><td>{{timezone}}</td></tr>{{/if}}
+</table>
+{{/with}}
+
+<a href="/login">ログアウト</a>
